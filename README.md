@@ -1,6 +1,6 @@
 # observation-models
 
-Observation Models is a small experimental library for turning noisy sensor observations into probabilistic beliefs about hidden physical states.
+A small experimental library for turning noisy sensor observations into probabilistic beliefs about hidden physical states.
 
 The first version uses a Gaussian mixture model to convert measurements into evidence, then updates a persistent prior belief over possible states.
 
