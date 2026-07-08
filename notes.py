@@ -7,8 +7,6 @@ import json
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans
 
-from lib.common.plotting.timeseries import plot_horizontal as plot
-
 from observation_models.models.gmm import Model
 from observation_models.belief.prior import Prior
 from observation_models.data.load_data import load_observations
